@@ -1,0 +1,31 @@
+{
+  "name": "password_generator",
+  "version": "1.0.0",
+  "description": "Password Generator pc software",
+  "main": "./build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode=development --watch --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js && electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0",
+    "electron-reload-webpack-plugin": "^2.0.4",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
